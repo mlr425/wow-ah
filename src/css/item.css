@@ -1,0 +1,29 @@
+.row-item{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    border-top: 2px solid black;
+    /* border-bottom: 1px solid black; */
+    min-height:200px;
+}
+
+.item-name{
+    display:flex;
+    justify-content: center;
+    background-color: var(--bg-primary);
+}
+
+.item-pic{
+
+}
+
+.col2{
+    display:flex;
+    justify-content: center;
+    background-color: var(--bg-secondary);
+}
+
+.col3{
+    display:flex;
+    justify-content: center;
+    background-color: var(--bg-primary);
+}

@@ -1,0 +1,54 @@
+/* todo: switch this to material ui tradtional way of styling */
+
+body{
+    background-color: #D3D3D3;
+}
+
+.main-title-container{
+    display:flex;
+    justify-content: center;
+    padding-bottom:20px;
+}
+
+.main{
+    padding-bottom:50px;
+}
+
+.main-title{
+    font-size:2rem;
+    color:black;
+    
+}
+
+.menu-container{
+    /* display:grid;
+    grid-template-columns: auto auto auto auto;
+    border: 2px solid green; */
+    
+    /* border: 1px solid red; */
+    
+}
+
+.searchBar{
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid #7a7a7a;
+    /* border:1px solid red; */
+    /* max-width: 350px; */
+}
+
+.autocompleteTextArea{
+    /* border:1px solid green; */
+    padding-bottom:17px;
+   
+}
+
+.autocompleteTextArea label {
+    color:var(--black-font-primary);
+}
+
+.results-container{
+    display:flex;
+    
+    justify-content: center;
+}
